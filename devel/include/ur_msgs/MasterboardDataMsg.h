@@ -114,7 +114,6 @@ struct MasterboardDataMsg_
 
 
 
-
   typedef boost::shared_ptr< ::ur_msgs::MasterboardDataMsg_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::MasterboardDataMsg_<ContainerAllocator> const> ConstPtr;
 

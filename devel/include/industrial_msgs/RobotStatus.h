@@ -81,7 +81,6 @@ struct RobotStatus_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::RobotStatus_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::RobotStatus_<ContainerAllocator> const> ConstPtr;
 

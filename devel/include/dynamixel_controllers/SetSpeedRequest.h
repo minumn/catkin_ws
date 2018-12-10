@@ -39,7 +39,6 @@ struct SetSpeedRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetSpeedRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetSpeedRequest_<ContainerAllocator> const> ConstPtr;
 

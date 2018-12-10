@@ -64,7 +64,6 @@ struct StartControllerRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::StartControllerRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::StartControllerRequest_<ContainerAllocator> const> ConstPtr;
 

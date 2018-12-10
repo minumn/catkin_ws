@@ -116,7 +116,7 @@ utest_float64_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: industrial_core/simple_message/CMakeFiles/utest_float64.dir/test/utest.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: industrial_core/simple_message/CMakeFiles/utest_float64.dir/test/utest_message.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: industrial_core/simple_message/CMakeFiles/utest_float64.dir/build.make
-/home/ros/catkin_ws/devel/lib/simple_message/utest_float64: gtest/gtest/libgtest.so
+/home/ros/catkin_ws/devel/lib/simple_message/utest_float64: gtest/libgtest.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: /home/ros/catkin_ws/devel/lib/libsimple_message_float64.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: /opt/ros/kinetic/lib/libroscpp.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_float64: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

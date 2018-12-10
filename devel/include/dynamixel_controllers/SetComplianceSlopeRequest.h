@@ -39,7 +39,6 @@ struct SetComplianceSlopeRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetComplianceSlopeRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetComplianceSlopeRequest_<ContainerAllocator> const> ConstPtr;
 

@@ -116,7 +116,7 @@ utest_byte_swapping_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: industrial_core/simple_message/CMakeFiles/utest_byte_swapping.dir/test/utest.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: industrial_core/simple_message/CMakeFiles/utest_byte_swapping.dir/test/utest_message.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: industrial_core/simple_message/CMakeFiles/utest_byte_swapping.dir/build.make
-/home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: gtest/gtest/libgtest.so
+/home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: gtest/libgtest.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: /home/ros/catkin_ws/devel/lib/libsimple_message_bswap.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: /opt/ros/kinetic/lib/libroscpp.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest_byte_swapping: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

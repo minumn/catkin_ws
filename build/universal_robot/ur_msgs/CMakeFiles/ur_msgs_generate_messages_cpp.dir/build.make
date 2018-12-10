@@ -67,7 +67,7 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp: /home/ros/catk
 /home/ros/catkin_ws/devel/include/ur_msgs/Analog.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Analog.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/Analog.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ur_msgs/Analog.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Analog.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Analog.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/IOStates.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/IOStates.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/IOStates.msg
@@ -75,45 +75,45 @@ universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp: /home/ros/catk
 /home/ros/catkin_ws/devel/include/ur_msgs/IOStates.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Analog.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/IOStates.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ur_msgs/IOStates.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/IOStates.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/IOStates.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/Digital.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/Digital.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Digital.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/Digital.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ur_msgs/Digital.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Digital.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/Digital.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/MasterboardDataMsg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/MasterboardDataMsg.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/MasterboardDataMsg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ur_msgs/MasterboardDataMsg.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/MasterboardDataMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/RobotStateRTMsg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/RobotStateRTMsg.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/RobotStateRTMsg.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/RobotStateRTMsg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from ur_msgs/RobotStateRTMsg.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/RobotStateRTMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/RobotStateRTMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/ToolDataMsg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/ToolDataMsg.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/ToolDataMsg.msg
 /home/ros/catkin_ws/devel/include/ur_msgs/ToolDataMsg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from ur_msgs/ToolDataMsg.msg"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/ToolDataMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/msg/ToolDataMsg.msg -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/SetPayload.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/SetPayload.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetPayload.srv
 /home/ros/catkin_ws/devel/include/ur_msgs/SetPayload.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/ur_msgs/SetPayload.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from ur_msgs/SetPayload.srv"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetPayload.srv -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetPayload.srv -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/ur_msgs/SetIO.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/ur_msgs/SetIO.h: /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetIO.srv
 /home/ros/catkin_ws/devel/include/ur_msgs/SetIO.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/ur_msgs/SetIO.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from ur_msgs/SetIO.srv"
-	cd /home/ros/catkin_ws/src/universal_robot/ur_msgs && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetIO.srv -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/universal_robot/ur_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/universal_robot/ur_msgs/srv/SetIO.srv -Iur_msgs:/home/ros/catkin_ws/src/universal_robot/ur_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p ur_msgs -o /home/ros/catkin_ws/devel/include/ur_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ur_msgs_generate_messages_cpp: universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp
 ur_msgs_generate_messages_cpp: /home/ros/catkin_ws/devel/include/ur_msgs/Analog.h

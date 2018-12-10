@@ -37,21 +37,18 @@ struct TriState_
   _val_type val;
 
 
-
-  enum {
-    UNKNOWN = -1,
-    TRUE = 1,
-    ON = 1,
-    ENABLED = 1,
-    HIGH = 1,
-    CLOSED = 1,
-    FALSE = 0,
-    OFF = 0,
-    DISABLED = 0,
-    LOW = 0,
-    OPEN = 0,
-  };
-
+    enum { UNKNOWN = -1 };
+     enum { TRUE = 1 };
+     enum { ON = 1 };
+     enum { ENABLED = 1 };
+     enum { HIGH = 1 };
+     enum { CLOSED = 1 };
+     enum { FALSE = 0 };
+     enum { OFF = 0 };
+     enum { DISABLED = 0 };
+     enum { LOW = 0 };
+     enum { OPEN = 0 };
+ 
 
   typedef boost::shared_ptr< ::industrial_msgs::TriState_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::TriState_<ContainerAllocator> const> ConstPtr;

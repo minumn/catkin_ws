@@ -84,7 +84,6 @@ struct MotorState_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_msgs::MotorState_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_msgs::MotorState_<ContainerAllocator> const> ConstPtr;
 

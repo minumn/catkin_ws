@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
 include industrial_core/simple_message/CMakeFiles/_run_tests_simple_message_gtest_utest_udp.dir/progress.make
 
 industrial_core/simple_message/CMakeFiles/_run_tests_simple_message_gtest_utest_udp:
-	cd /home/ros/catkin_ws/build/industrial_core/simple_message && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/simple_message/gtest-utest_udp.xml "/home/ros/catkin_ws/devel/lib/simple_message/utest_udp --gtest_output=xml:/home/ros/catkin_ws/build/test_results/simple_message/gtest-utest_udp.xml"
+	cd /home/ros/catkin_ws/build/industrial_core/simple_message && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/simple_message/gtest-utest_udp.xml /home/ros/catkin_ws/devel/lib/simple_message/utest_udp\ --gtest_output=xml:/home/ros/catkin_ws/build/test_results/simple_message/gtest-utest_udp.xml
 
 _run_tests_simple_message_gtest_utest_udp: industrial_core/simple_message/CMakeFiles/_run_tests_simple_message_gtest_utest_udp
 _run_tests_simple_message_gtest_utest_udp: industrial_core/simple_message/CMakeFiles/_run_tests_simple_message_gtest_utest_udp.dir/build.make

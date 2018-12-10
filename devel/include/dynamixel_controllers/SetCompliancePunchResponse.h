@@ -36,7 +36,6 @@ struct SetCompliancePunchResponse_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetCompliancePunchResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetCompliancePunchResponse_<ContainerAllocator> const> ConstPtr;
 

@@ -39,7 +39,6 @@ struct SetComplianceMarginRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetComplianceMarginRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetComplianceMarginRequest_<ContainerAllocator> const> ConstPtr;
 

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
 include ur_modern_driver/CMakeFiles/_run_tests_ur_modern_driver_gtest_ur_modern_driver_test.dir/progress.make
 
 ur_modern_driver/CMakeFiles/_run_tests_ur_modern_driver_gtest_ur_modern_driver_test:
-	cd /home/ros/catkin_ws/build/ur_modern_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/ur_modern_driver/gtest-ur_modern_driver_test.xml "/home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test --gtest_output=xml:/home/ros/catkin_ws/build/test_results/ur_modern_driver/gtest-ur_modern_driver_test.xml"
+	cd /home/ros/catkin_ws/build/ur_modern_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/ur_modern_driver/gtest-ur_modern_driver_test.xml /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test\ --gtest_output=xml:/home/ros/catkin_ws/build/test_results/ur_modern_driver/gtest-ur_modern_driver_test.xml
 
 _run_tests_ur_modern_driver_gtest_ur_modern_driver_test: ur_modern_driver/CMakeFiles/_run_tests_ur_modern_driver_gtest_ur_modern_driver_test
 _run_tests_ur_modern_driver_gtest_ur_modern_driver_test: ur_modern_driver/CMakeFiles/_run_tests_ur_modern_driver_gtest_ur_modern_driver_test.dir/build.make

@@ -44,7 +44,6 @@ struct StopControllerResponse_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::StopControllerResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::StopControllerResponse_<ContainerAllocator> const> ConstPtr;
 

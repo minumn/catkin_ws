@@ -69,63 +69,63 @@ dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from dynamixel_controllers/SetComplianceMargin.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dynamixel_controllers/SetTorqueLimit.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dynamixel_controllers/StopController.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from dynamixel_controllers/TorqueEnable.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from dynamixel_controllers/SetCompliancePunch.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from dynamixel_controllers/RestartController.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from dynamixel_controllers/SetComplianceSlope.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from dynamixel_controllers/StartController.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dynamixel_controllers/SetSpeed.srv"
-	cd /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/ros/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/catkin_ws/build/dynamixel_motor/dynamixel_controllers && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv -p dynamixel_controllers -o /home/ros/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 dynamixel_controllers_generate_messages_cpp: dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp
 dynamixel_controllers_generate_messages_cpp: /home/ros/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h

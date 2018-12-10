@@ -456,6 +456,7 @@ ur_driver_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: ur_modern_driver/CMakeFiles/ur_driver.dir/build.make
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /opt/ros/kinetic/lib/librealtime_tools.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /opt/ros/kinetic/lib/libclass_loader.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_driver: /usr/lib/libPocoFoundation.so

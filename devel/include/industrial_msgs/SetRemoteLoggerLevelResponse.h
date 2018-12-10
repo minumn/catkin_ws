@@ -40,7 +40,6 @@ struct SetRemoteLoggerLevelResponse_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::SetRemoteLoggerLevelResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::SetRemoteLoggerLevelResponse_<ContainerAllocator> const> ConstPtr;
 

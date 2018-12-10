@@ -117,6 +117,7 @@ ur_hardware_interface_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: ur_modern_driver/CMakeFiles/ur_hardware_interface.dir/src/ros/controller.cpp.o
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: ur_modern_driver/CMakeFiles/ur_hardware_interface.dir/build.make
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: /opt/ros/kinetic/lib/librealtime_tools.so
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
 /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so: /usr/lib/libPocoFoundation.so

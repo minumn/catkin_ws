@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
 include industrial_core/industrial_robot_client/CMakeFiles/run_tests_industrial_robot_client_gtest_utest_robot_client.dir/progress.make
 
 industrial_core/industrial_robot_client/CMakeFiles/run_tests_industrial_robot_client_gtest_utest_robot_client:
-	cd /home/ros/catkin_ws/build/industrial_core/industrial_robot_client && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/industrial_robot_client/gtest-utest_robot_client.xml "/home/ros/catkin_ws/devel/lib/industrial_robot_client/utest_robot_client --gtest_output=xml:/home/ros/catkin_ws/build/test_results/industrial_robot_client/gtest-utest_robot_client.xml"
+	cd /home/ros/catkin_ws/build/industrial_core/industrial_robot_client && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/ros/catkin_ws/build/test_results/industrial_robot_client/gtest-utest_robot_client.xml /home/ros/catkin_ws/devel/lib/industrial_robot_client/utest_robot_client\ --gtest_output=xml:/home/ros/catkin_ws/build/test_results/industrial_robot_client/gtest-utest_robot_client.xml
 
 run_tests_industrial_robot_client_gtest_utest_robot_client: industrial_core/industrial_robot_client/CMakeFiles/run_tests_industrial_robot_client_gtest_utest_robot_client
 run_tests_industrial_robot_client_gtest_utest_robot_client: industrial_core/industrial_robot_client/CMakeFiles/run_tests_industrial_robot_client_gtest_utest_robot_client.dir/build.make

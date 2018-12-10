@@ -39,7 +39,6 @@ struct SetDrivePowerRequest_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::SetDrivePowerRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::SetDrivePowerRequest_<ContainerAllocator> const> ConstPtr;
 

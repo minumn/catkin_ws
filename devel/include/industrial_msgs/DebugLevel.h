@@ -37,16 +37,13 @@ struct DebugLevel_
   _val_type val;
 
 
-
-  enum {
-    DEBUG = 5u,
-    INFO = 4u,
-    WARN = 3u,
-    ERROR = 2u,
-    FATAL = 1u,
-    NONE = 0u,
-  };
-
+    enum { DEBUG = 5u };
+     enum { INFO = 4u };
+     enum { WARN = 3u };
+     enum { ERROR = 2u };
+     enum { FATAL = 1u };
+     enum { NONE = 0u };
+ 
 
   typedef boost::shared_ptr< ::industrial_msgs::DebugLevel_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::DebugLevel_<ContainerAllocator> const> ConstPtr;

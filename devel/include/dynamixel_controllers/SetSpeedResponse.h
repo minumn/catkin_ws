@@ -36,7 +36,6 @@ struct SetSpeedResponse_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetSpeedResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetSpeedResponse_<ContainerAllocator> const> ConstPtr;
 

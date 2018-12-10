@@ -64,7 +64,6 @@ struct IOStates_
 
 
 
-
   typedef boost::shared_ptr< ::ur_msgs::IOStates_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::IOStates_<ContainerAllocator> const> ConstPtr;
 

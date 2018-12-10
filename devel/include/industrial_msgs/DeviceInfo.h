@@ -59,7 +59,6 @@ struct DeviceInfo_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::DeviceInfo_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::DeviceInfo_<ContainerAllocator> const> ConstPtr;
 

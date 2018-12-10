@@ -37,12 +37,9 @@ struct ServiceReturnCode_
   _val_type val;
 
 
-
-  enum {
-    SUCCESS = 1,
-    FAILURE = -1,
-  };
-
+    enum { SUCCESS = 1 };
+     enum { FAILURE = -1 };
+ 
 
   typedef boost::shared_ptr< ::industrial_msgs::ServiceReturnCode_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::ServiceReturnCode_<ContainerAllocator> const> ConstPtr;

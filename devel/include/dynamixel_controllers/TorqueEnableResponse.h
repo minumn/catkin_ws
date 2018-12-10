@@ -36,7 +36,6 @@ struct TorqueEnableResponse_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::TorqueEnableResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::TorqueEnableResponse_<ContainerAllocator> const> ConstPtr;
 

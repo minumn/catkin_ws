@@ -27,8 +27,6 @@
 <pathentry kind="mac" name="ROS" path="" value="1"/>
 <pathentry kind="mac" name="LINUXSOCKETS" path="" value="1"/>
 <pathentry kind="mac" name="ROS_BUILD" path="" value=""/>
-<pathentry include="/usr/src/gmock/include" kind="inc" path="" system="true"/>
-<pathentry include="/usr/src/gmock" kind="inc" path="" system="true"/>
 <pathentry include="/usr/src/gtest/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/src/gtest" kind="inc" path="" system="true"/>
 <pathentry include="/home/ros/catkin_ws/devel/include" kind="inc" path="" system="true"/>
@@ -143,84 +141,14 @@
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[lib] gmock" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>gmock</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[lib] gmock/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>gmock/fast</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Build" path="[Targets]/[lib] gmock" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-C "/home/ros/catkin_ws/build" </buildArguments>
-<buildTarget>gmock</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Clean" path="[Targets]/[lib] gmock" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest" "/usr/bin/cmake" -P "CMakeFiles/gmock.dir/cmake_clean.cmake"</buildArguments>
-<buildTarget></buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[lib] gmock_main" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>gmock_main</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[lib] gmock_main/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>gmock_main/fast</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Build" path="[Targets]/[lib] gmock_main" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-C "/home/ros/catkin_ws/build" </buildArguments>
-<buildTarget>gmock_main</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Clean" path="[Targets]/[lib] gmock_main" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest" "/usr/bin/cmake" -P "CMakeFiles/gmock_main.dir/cmake_clean.cmake"</buildArguments>
-<buildTarget></buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": all" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>all</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": clean" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>clean</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[lib] gtest" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[lib] gtest" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>gtest</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[lib] gtest/fast" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[lib] gtest/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>gtest/fast</buildTarget>
@@ -236,19 +164,19 @@
 </target>
 <target name="Clean" path="[Targets]/[lib] gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest.dir/cmake_clean.cmake"</buildArguments>
+<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest.dir/cmake_clean.cmake"</buildArguments>
 <buildTarget></buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[lib] gtest_main" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[lib] gtest_main" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>gtest_main</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name="[lib] gtest_main/fast" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name="[lib] gtest_main/fast" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>gtest_main/fast</buildTarget>
@@ -264,19 +192,19 @@
 </target>
 <target name="Clean" path="[Targets]/[lib] gtest_main" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest_main.dir/cmake_clean.cmake"</buildArguments>
+<buildArguments>-E chdir "/home/ros/catkin_ws/build/gtest" "/usr/bin/cmake" -P "CMakeFiles/gtest_main.dir/cmake_clean.cmake"</buildArguments>
 <buildTarget></buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name=": all" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name=": all" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>all</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name=": clean" path="gtest/gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<target name=": clean" path="gtest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>clean</buildTarget>
@@ -1200,6 +1128,83 @@
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
+<target name=": diagnostic_msgs_generate_messages_nodejs" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>diagnostic_msgs_generate_messages_nodejs</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": diagnostic_msgs_generate_messages_eus" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>diagnostic_msgs_generate_messages_eus</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": diagnostic_msgs_generate_messages_cpp" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>diagnostic_msgs_generate_messages_cpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": diagnostic_msgs_generate_messages_py" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>diagnostic_msgs_generate_messages_py</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": diagnostic_msgs_generate_messages_lisp" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>diagnostic_msgs_generate_messages_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] sixpair" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sixpair</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] sixpair/fast" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sixpair/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[exe] sixpair" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/ros/catkin_ws/build" </buildArguments>
+<buildTarget>sixpair</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[exe] sixpair" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/ros/catkin_ws/build/joystick_drivers/ps3joy" "/usr/bin/cmake" -P "CMakeFiles/sixpair.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
 <target name=": all" path="quickui" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
@@ -1613,41 +1618,6 @@
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
-<target name=": diagnostic_msgs_generate_messages_nodejs" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>diagnostic_msgs_generate_messages_nodejs</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": diagnostic_msgs_generate_messages_eus" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>diagnostic_msgs_generate_messages_eus</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": diagnostic_msgs_generate_messages_cpp" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>diagnostic_msgs_generate_messages_cpp</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": diagnostic_msgs_generate_messages_py" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>diagnostic_msgs_generate_messages_py</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": diagnostic_msgs_generate_messages_lisp" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>diagnostic_msgs_generate_messages_lisp</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
 <target name="[exe] joy_node" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
@@ -1684,48 +1654,6 @@
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": clean" path="joystick_drivers/joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>clean</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[exe] sixpair" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>sixpair</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="[exe] sixpair/fast" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>sixpair/fast</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Build" path="[Targets]/[exe] sixpair" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-C "/home/ros/catkin_ws/build" </buildArguments>
-<buildTarget>sixpair</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name="Clean" path="[Targets]/[exe] sixpair" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/cmake</buildCommand>
-<buildArguments>-E chdir "/home/ros/catkin_ws/build/joystick_drivers/ps3joy" "/usr/bin/cmake" -P "CMakeFiles/sixpair.dir/cmake_clean.cmake"</buildArguments>
-<buildTarget></buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": all" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
-<buildCommand>/usr/bin/make</buildCommand>
-<buildArguments></buildArguments>
-<buildTarget>all</buildTarget>
-<stopOnError>true</stopOnError>
-<useDefaultCommand>false</useDefaultCommand>
-</target>
-<target name=": clean" path="joystick_drivers/ps3joy" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
 <buildArguments></buildArguments>
 <buildTarget>clean</buildTarget>

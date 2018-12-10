@@ -532,9 +532,10 @@ ur_modern_driver_test_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: ur_modern_driver/CMakeFiles/ur_modern_driver_test.dir/tests/ur/robot_mode.cpp.o
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: ur_modern_driver/CMakeFiles/ur_modern_driver_test.dir/tests/main.cpp.o
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: ur_modern_driver/CMakeFiles/ur_modern_driver_test.dir/build.make
-/home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: gtest/gtest/libgtest.so
+/home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: gtest/libgtest.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /home/ros/catkin_ws/devel/lib/libur_hardware_interface.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /opt/ros/kinetic/lib/librealtime_tools.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /opt/ros/kinetic/lib/libclass_loader.so
 /home/ros/catkin_ws/devel/lib/ur_modern_driver/ur_modern_driver_test: /usr/lib/libPocoFoundation.so

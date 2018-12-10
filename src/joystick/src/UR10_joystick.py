@@ -137,8 +137,6 @@ def move_interrupt():
         raise
 
 def move_joy():
-    global delta
-    rate = rospy.Rate(5)
     g = FollowJointTrajectoryGoal()
     g.trajectory = JointTrajectory()
     g.trajectory.joint_names = JOINT_NAMES
@@ -151,8 +149,7 @@ def move_joy():
 #        print joints_pos[0]
 #        print delta
         while(1):
-            joints_pos[0] += delta/10;
-            print delta
+            joints_pos[0] += delta;
             print joints_pos
 
             g.trajectory.points = [
@@ -161,14 +158,13 @@ def move_joy():
             client.send_goal(g)
             #joint_states = rospy.wait_for_message("joint_states", JointState)
             client.wait_for_result()
-            rate.sleep()
     except KeyboardInterrupt:
         client.cancel_goal()
         raise
     except:
         raise
 
-def move_speed():
+def speed():
     global delta
     pub = rospy.Publisher("/ur_driver/URScript", String, queue_size=10)
     rate = rospy.Rate(5) # 10hz
@@ -180,8 +176,6 @@ def move_speed():
         rate.sleep()
 
 def callback_joy(data):
-    # Remember to start joystick node in advance !!!
-    # rosrun joy joy_node
     global delta    
     #print ("Callback...")
     print data
@@ -219,14 +213,13 @@ def main():
             #move_repeated()
             #move_disordered()
             #move_interrupt()
-            move_joy()
-            #move_speed()
+            #move_joy()
+            speed()
         else:
             print "Halting program"
     except KeyboardInterrupt:
         rospy.signal_shutdown("KeyboardInterrupt")
         raise
-    print "Done..."
 
 if __name__ == '__main__': main()
 

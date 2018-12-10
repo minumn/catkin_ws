@@ -40,7 +40,6 @@ struct SetDrivePowerResponse_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::SetDrivePowerResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::SetDrivePowerResponse_<ContainerAllocator> const> ConstPtr;
 

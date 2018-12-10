@@ -40,7 +40,6 @@ struct CmdJointTrajectoryRequest_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::CmdJointTrajectoryRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::CmdJointTrajectoryRequest_<ContainerAllocator> const> ConstPtr;
 

@@ -40,7 +40,6 @@ struct StartMotionResponse_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::StartMotionResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::StartMotionResponse_<ContainerAllocator> const> ConstPtr;
 

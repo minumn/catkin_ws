@@ -44,7 +44,6 @@ struct RestartControllerResponse_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::RestartControllerResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::RestartControllerResponse_<ContainerAllocator> const> ConstPtr;
 

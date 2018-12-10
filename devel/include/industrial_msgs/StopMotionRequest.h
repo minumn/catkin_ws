@@ -36,7 +36,6 @@ struct StopMotionRequest_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::StopMotionRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::StopMotionRequest_<ContainerAllocator> const> ConstPtr;
 

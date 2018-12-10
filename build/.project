@@ -6,11 +6,6 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>org.python.pydev.PyDevBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
 			<name>org.eclipse.cdt.make.core.makeBuilder</name>
 			<triggers>clean,full,incremental,</triggers>
 			<arguments>
@@ -84,7 +79,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.environment</key>
-					<value>VERBOSE=1|ROS_ROOT=/opt/ros/kinetic/share/ros|ROS_PACKAGE_PATH=/home/ros/catkin_ws/src:/opt/ros/kinetic/share|PYTHONPATH=/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages|PATH=/home/ros/catkin_ws/devel/bin:/opt/ros/kinetic/bin:/home/ros/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin|LD_LIBRARY_PATH=/home/ros/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu|PKG_CONFIG_PATH=/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig|CMAKE_PREFIX_PATH=/home/ros/catkin_ws/devel:/opt/ros/kinetic|</value>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
@@ -111,7 +106,6 @@
 		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.core.cnature</nature>
-		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
 	<linkedResources>
 		<link>
@@ -206,16 +200,6 @@
 		</link>
 		<link>
 			<name>[Targets]/[exe] utest_udp</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[lib] gmock</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[lib] gmock_main</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>

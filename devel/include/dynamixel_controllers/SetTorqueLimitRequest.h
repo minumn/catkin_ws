@@ -39,7 +39,6 @@ struct SetTorqueLimitRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::SetTorqueLimitRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::SetTorqueLimitRequest_<ContainerAllocator> const> ConstPtr;
 

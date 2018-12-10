@@ -64,7 +64,6 @@ struct RestartControllerRequest_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_controllers::RestartControllerRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_controllers::RestartControllerRequest_<ContainerAllocator> const> ConstPtr;
 

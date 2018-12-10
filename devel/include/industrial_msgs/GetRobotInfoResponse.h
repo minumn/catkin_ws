@@ -52,7 +52,6 @@ struct GetRobotInfoResponse_
 
 
 
-
   typedef boost::shared_ptr< ::industrial_msgs::GetRobotInfoResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::GetRobotInfoResponse_<ContainerAllocator> const> ConstPtr;
 

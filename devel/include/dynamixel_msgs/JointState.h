@@ -85,7 +85,6 @@ struct JointState_
 
 
 
-
   typedef boost::shared_ptr< ::dynamixel_msgs::JointState_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::dynamixel_msgs::JointState_<ContainerAllocator> const> ConstPtr;
 

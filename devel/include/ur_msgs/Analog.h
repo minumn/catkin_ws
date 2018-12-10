@@ -44,7 +44,6 @@ struct Analog_
 
 
 
-
   typedef boost::shared_ptr< ::ur_msgs::Analog_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::ur_msgs::Analog_<ContainerAllocator> const> ConstPtr;
 

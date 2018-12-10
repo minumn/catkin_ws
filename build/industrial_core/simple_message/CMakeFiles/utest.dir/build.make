@@ -116,7 +116,7 @@ utest_EXTERNAL_OBJECTS =
 /home/ros/catkin_ws/devel/lib/simple_message/utest: industrial_core/simple_message/CMakeFiles/utest.dir/test/utest.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest: industrial_core/simple_message/CMakeFiles/utest.dir/test/utest_message.cpp.o
 /home/ros/catkin_ws/devel/lib/simple_message/utest: industrial_core/simple_message/CMakeFiles/utest.dir/build.make
-/home/ros/catkin_ws/devel/lib/simple_message/utest: gtest/gtest/libgtest.so
+/home/ros/catkin_ws/devel/lib/simple_message/utest: gtest/libgtest.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest: /home/ros/catkin_ws/devel/lib/libsimple_message.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest: /opt/ros/kinetic/lib/libroscpp.so
 /home/ros/catkin_ws/devel/lib/simple_message/utest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

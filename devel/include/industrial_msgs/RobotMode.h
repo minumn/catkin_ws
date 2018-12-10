@@ -37,13 +37,10 @@ struct RobotMode_
   _val_type val;
 
 
-
-  enum {
-    UNKNOWN = -1,
-    MANUAL = 1,
-    AUTO = 2,
-  };
-
+    enum { UNKNOWN = -1 };
+     enum { MANUAL = 1 };
+     enum { AUTO = 2 };
+ 
 
   typedef boost::shared_ptr< ::industrial_msgs::RobotMode_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::RobotMode_<ContainerAllocator> const> ConstPtr;
